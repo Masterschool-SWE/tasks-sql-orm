@@ -94,4 +94,4 @@ def delete_task(id):
         return jsonify({"error": "Task not found"}), 404
 
 if __name__ == "__main__":
-    app.run(port=os.getenv('PORT'), debug=True, host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0")
